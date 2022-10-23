@@ -1,0 +1,15 @@
+{
+    "name": "Container",
+    "build": {
+        "args": {
+            "ANSIBLE_VERSION": "6.4.0",
+            "MOLECULE_VERSION": "4.0.1"
+        }
+    },
+    "dockerFile": "Dockerfile",
+    "containerUser": "node",
+    "remoteUser": "node",
+    "features": {
+        "ghcr.io/devcontainers/features/docker-from-docker:1": {}
+    }
+}

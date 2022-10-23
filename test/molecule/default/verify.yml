@@ -1,0 +1,4 @@
+- name: Test case
+  hosts: all
+  gather_facts: false
+  tasks:
